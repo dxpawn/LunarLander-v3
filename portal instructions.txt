@@ -1,0 +1,34 @@
+Starter code (môi trường python và code tạo video)
+requirements.txtDownload requirements.txt
+lunar_lander_starter.ipynbDownload lunar_lander_starter.ipynb
+Lunar Lander (https://www.gymlibrary.dev/environments/box2d/lunar_lander/Links to an external site.) là một môi trường mô phỏng trong OpenAI Gym. Người chơi điều khiển một tàu vũ trụ để hạ cánh an toàn trên bề mặt mặt trăng.
+Yêu cầu cụ thể
+Sinh viên cần hoàn thành các nhiệm vụ sau:
+
+Triển khai agent học tăng cường
+Chọn ít nhất 02 thuật toán / mô hình để giải quyết bài toán, ví dụ:
+Q-Learning.
+Deep Q-Network (DQN).
+...
+Viết trong báo cáo: mô tả thuật toán (lý thuyết, mô hình dưới ngôn ngữ toán học), giải thích lý do chọn thuật toán này.
+Huấn luyện agent
+Thiết lập môi trường Lunar Lander bằng OpenAI Gym.
+Viết hàm để huấn luyện agent qua các episode (ít nhất 500 episode hoặc cho đến khi đạt hiệu suất ổn định).
+Theo dõi và vẽ biểu đồ tổng phần thưởng (total reward) qua các episode để thể hiện quá trình học.
+Viết hàm tạo video của một episode
+Đánh giá và tối ưu hóa hiệu suất
+Thử ít nhất 02 thuật toán / mô hình học máy
+Thử các cách điều chỉnh reward so với reward gốc
+Đánh giá hiệu suất của agent dựa trên các tiêu chí:
+Tỷ lệ hạ cánh thành công.
+Hiệu quả sử dụng nhiên liệu (fuel efficiency).
+Thử nghiệm với ít nhất 2 giá trị khác nhau của siêu tham số (ví dụ: learning rate, discount factor) và so sánh kết quả (vẽ biểu đồ so sánh).
+Báo cáo kết quả
+Trình bày toàn bộ bài tập trong một Jupyter Notebook, bao gồm:
+Mã nguồn: Code chi tiết, có chú thích rõ ràng.
+Biểu đồ: Đồ thị thể hiện quá trình huấn luyện (ví dụ: đường cong tổng phần thưởng).
+Phân tích:
+Mô tả kết quả đạt được.
+Tất cả các version của code phải có trong notebook (version cuối, tốt nhất để cuối cùng)
+Thảo luận về những thách thức gặp phải của từng version và cách giải quyết (bằng các ô text).
+Càng refactor code nhiều càng được đánh giá cao
